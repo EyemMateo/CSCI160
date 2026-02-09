@@ -10,7 +10,7 @@ credits = int(input("Number of completed credits: "))
 if credits >= 0 and credits <= 23:
     print(" Class rank: Freshman")
 elif credits >= 24 and credits <= 59:
-    print(" Class rank: Sophmore")
+    print(" Class rank: Sophomore")
 elif credits >= 60 and credits <= 89:
     print(" Class rank: Junior")
 elif credits >= 90:
