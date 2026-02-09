@@ -18,4 +18,5 @@ elif op == "/":
     re = fn / sn
 elif op == "//":
     re = fn // sn
-print("The result is:",re)
+re = format(re,".1f")
+print("The result is: ",re,sep="",end="")

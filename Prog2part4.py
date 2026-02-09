@@ -13,5 +13,5 @@ elif credits >= 24 and credits <= 59:
     print(" Class rank: Sophmore")
 elif credits >= 60 and credits <= 89:
     print(" Class rank: Junior")
-elif credits >= 60 and credits <= 89:
+elif credits >= 90:
     print(" Class rank: Senior")
