@@ -22,11 +22,12 @@ while x != 0:
     x = int(input("Enter a value: "))
 if PC > 0:
     Pcalc = PA / PC
+    print(f"Average of positive values:{Pcalc:.2f}")
 else:
-    Pcalc = 0
+    print("Average of positive values:N/A")
 if NC > 0:
     Ncalc = NA / NC
+    print(f"Average of negative values:{Ncalc:.2f}")
 else:
-    Ncalc = 0
-print(f"Average of positive values:{Pcalc:.2f}")
-print(f"Average of negative values:{Ncalc:.2f}")
+    print("Average of negative values:N/A")
+
