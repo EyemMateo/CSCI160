@@ -15,12 +15,18 @@ x = int(input("Enter a value: "))
 while x != 0:
     if x > 0:
         PA = PA + x
-        PC = PC + 1
+        PC = PC + 1   
     else:
         NA = NA + x
         NC = NC + 1
     x = int(input("Enter a value: "))
-Pcalc = PA / PC
-Ncalc = NA / NC
+if PC > 0:
+    Pcalc = PA / PC
+else:
+    Pcalc = 0
+if NC > 0:
+    Ncalc = NA / NC
+else:
+    Ncalc = 0
 print(f"Average of positive values:{Pcalc:.2f}")
 print(f"Average of negative values:{Ncalc:.2f}")
