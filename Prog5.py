@@ -47,4 +47,4 @@ def compareTo(intValue1, intValue2):
         return(0)
 
 #print(square(int(input("Square input"))))
-print(compareTo((int(input("SquareSum input"))), (int(input("SquareSum input")))))
+#print(compareTo((int(input("SquareSum input"))), (int(input("SquareSum input")))))
