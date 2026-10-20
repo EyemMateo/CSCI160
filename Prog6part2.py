@@ -49,6 +49,6 @@ if count > 0:
         print("Found Value of low limit")
     if foundUpper == 1:
         print("Found value of high limit")
-    print(average)
+    print(f"{average:.2f}")
 else:
     print("\nNo scores were found within the specified range.")
