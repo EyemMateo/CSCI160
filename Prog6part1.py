@@ -4,7 +4,7 @@ email:mateo.sandoval@und.edu
 
 Project 6 part 1
 '''
-x = input("please write testing")
+#x = input("please write testing")
 fname = input("enter file name")
 fhand = open(fname,'w')
 var = 1

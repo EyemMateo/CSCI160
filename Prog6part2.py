@@ -6,8 +6,8 @@ Project 6 part 2
 '''
 
 fname = input("Enter file name: ")
-lower = float(input("Enter lower limit: "))
-upper = float(input("Enter upper limit: "))
+lower = float(input("Enter low limit: "))
+upper = float(input("Enter high limit: "))
 
 highest = None
 lowest = None
