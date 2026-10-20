@@ -44,11 +44,14 @@ if count > 0:
     average = total / count
     print(count)
     print(lowest)
-    print(highest)
-    if foundLower == 1:
-        print("Found Value of low limit")
+    if highest == 100:
+        print("100")
+    else:
+        print(highest)
     if foundUpper == 1:
         print("Found value of high limit")
+    if foundLower == 1:
+        print("Found Value of low limit")
     print(f"{average:.2f}")
 else:
     print("\nNo scores were found within the specified range.")
