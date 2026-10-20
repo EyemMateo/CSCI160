@@ -43,14 +43,12 @@ except FileNotFoundError:
 if count > 0:
     average = total / count
     print(count)
-    if foundUpper == 1:
-        print("Found value of high limit")
-    else:
-        print(highest)
+    print(lowest)
+    print(highest)
     if foundLower == 1:
         print("Found Value of low limit")
-    else:
-        print(lowest)
+    if foundUpper == 1:
+        print("Found value of high limit")
     print(average)
 else:
     print("\nNo scores were found within the specified range.")
